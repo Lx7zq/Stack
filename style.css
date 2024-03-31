@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+/* BUTTON */
+nav {
+    padding-top: 1rem;
+}
+
+button {
+    padding: 12px 24px; /* Reduced padding */
+    border: none; /* Removed border */
+    border-radius: 15px;
+    color: #ffffff; /* Changed text color to white */
+    background-color: #007bff; /* Blue background color */
+    font-weight: 700; /* Increased font weight */
+    font-size: 16px; /* Reduced font size */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Adjusted box shadow */
+    transition: all 0.3s ease; /* Smooth transition */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1); /* Adjusted hover shadow */
+}
+
+
+  
+#status {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Custom font family */
+}
+
+h2 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+span {
+    font-weight: bold;
+    color: #007bff; /* Blue color */
+}
+
+ section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#block-container {
+    margin-right: 20px;
+}
+
+#stack-container, #block-container {
+    
+    width: 200px;
+    min-height: 300px;
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.block {
+    width: 50;
+    height: 50;
+    margin: 2px 0;
+    cursor: grab;
+}
+
+.block2 {
+    width: 50px;
+    height: 50px;
+    margin: 2px 0;
+    cursor: grab;
+}
+
